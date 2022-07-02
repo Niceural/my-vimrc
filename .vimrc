@@ -91,10 +91,6 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-" for color font
-colorscheme gruvbox
-set background=dark
-
 " PLUGINS ---------------------------------------------------------------- {{{
 
 call plug#begin('~/.vim/plugged')
@@ -109,6 +105,11 @@ call plug#begin('~/.vim/plugged')
   Plug'morhetz/gruvbox'
 
 call plug#end()
+
+
+" for color font
+colorscheme gruvbox
+set background=dark
 
 " }}}
 
