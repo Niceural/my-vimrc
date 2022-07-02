@@ -20,24 +20,53 @@ The following plugins are used:
 To install on your device
 
 1. In the folder where you want to clone the repo enter:
-``` $ git clone https://github.com/Niceural/my-vimrc.git ```
+``` 
+$ git clone https://github.com/Niceural/my-vimrc.git 
+```
 
 2. Copy the file `.vimrc` into your home directory:
-``` $ cp ./my-vimrc/.vimrc ~/.vimrc ```
+``` 
+$ cp ./my-vimrc/.vimrc ~/.vimrc 
+```
 
 3. Create the folders to hold the dependencies:
-``` $ mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged ```
+``` 
+$ mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged 
+```
 
 4. Install vim-plug:
-``` $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim ```
+``` 
+$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
+```
 
 5. Install the plugins:
-``` $ vim ~/.vimrc ```
-``` :source % ```
-``` :PlugInstall ```
-``` :q ```
-``` :w ```
-``` :source % ```
-``` :q ```
+``` 
+$ vim ~/.vimrc 
+```
+
+``` 
+:source % 
+```
+
+``` 
+:PlugInstall 
+```
+
+``` 
+:q 
+```
+
+``` 
+:w 
+```
+
+``` 
+:source % 
+```
+
+``` 
+:q 
+```
+
 You're good to go!
