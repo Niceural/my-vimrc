@@ -43,30 +43,28 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 5. Install the plugins:
 ``` 
 $ vim ~/.vimrc 
-```
 
-``` 
 :source % 
-```
 
-``` 
 :PlugInstall 
-```
 
-``` 
 :q 
-```
 
-``` 
 :w 
-```
 
-``` 
 :source % 
-```
 
-``` 
 :q 
 ```
 
 You're good to go!
+
+## Commands cheatsheet
+
+### NERDTree
+
+- `Ctrl` + `w` + `w` cycle though all windows
+- `Ctrl` + `w` + `h` takes you left a window
+- `Ctrl` + `w` + `j` takes you down a window
+- `Ctrl` + `w` + `k` takes you up a window
+- `Ctrl` + `w` + `l` takes you right a window
